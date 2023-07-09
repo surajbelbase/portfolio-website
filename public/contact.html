@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Belbase - Developer (belbase.dev)</title>
+    <link rel = "stylesheet" href = "/public/output.css">    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <style>
+        body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+        }
+        
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+        </style> -->
+</head>
+<body class = "p-2 font-sans"><!-- flex flex-col min-h-screen  bg-[#eaeaea] text-slate-950-->
+    <header class=" sticky top-0 z-50 border-b-2 border-slate-100 p-5 bg-[#f9fafb]">                
+        <nav>                
+            <div class="grid grid-cols-3 items-center">
+                <!-- grid left header -->
+                <div class="flex justify-start items-center ml-4 text-3xl" >
+                    <a href="./index.html">BELBASE.dev</a>
+                </div>
+
+                <!-- grid header center -->
+                <div class="flex justify-center items-center">
+                    <ul class="text-center inline-flex text-center items-center space-x-5">
+                        <li class="text-base" ><a href="./index.html">Home</a></li>
+                        <li class="text-base" ><a href="./about.html">About</a></li>                        
+                        <li class="text-base" ><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- grid header end -->
+                <div class="flex justify-end items-right">
+                    <ul class="flex items-center justify-center space-x-2 ">
+                        <li><a href="https://www.linkedin.com/in/suraj-belbase/" target="_blank"><img src="img/linkedin.png" height="30px" width="30px"></a></li>                       
+                        <li><a href="https://github.com/surajbelbase" target="_blank"><img src="img/github.png" height="30px" width="30px"></a></li>                       
+                        <li><a href="https://twitter.com/belbase_suraj" target="_blank"><img src="img/twitter.png" height="30px" width="30px"></a></li>                       
+                        <li><a href="https://www.instagram.com/suraj.belbase/" target="_blank"><img src="img/instagram.png" height="30px" width="30px"></a></li>
+                        <!-- <button onclick="myFunction()" >
+                            <img class="toggleImg" src="img/toggle.png" height="30px" width="30px" alt="mode icons">
+                        </button>
+                        <script>
+                            function myFunction() {
+                                var element = document.body;
+                                element.classList.toggle("dark-mode");
+                            }
+                        </script>                                 -->
+                    </ul> 
+                </div>
+                               
+            </div>               
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="text-center mt-10 mb-10 ">
+                <div class="text-5xl m-3 font-extrabold tracking-tight">
+                    <p class="m-3"><span class="text-[#0095bf]"> Contact me.</span></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2">
+                <div  class="flex justify-center">
+                    <div class="m-6">
+                        <img id="contact_me_img" src="img/about-me-square.jpg" id="contact_pp" width="200px" height="200px"/>
+                        <div class="mt-10">
+                            <h3 class="text-3xl font-semibold">Call me: <span class="text-[#0f8fff] text-2xl">+91 6366013039</span></h3>
+                            <h3 class="text-3xl font-semibold">Email me: <span class="text-[#0f8fff] text-xl">surajblb7979@gmail.com</span></h3>
+                    
+                        </div>
+                        </div>
+                </div>
+                <div class="containerForm">
+                    <form action="https://formspree.io/f/mpzevqar" method="POST" id="demo_form">
+                        <h3>GET IN TOUCH</h3>
+                        <input type="text" name="name" id ="name" placeholder="Your name..." class="input-rounded" required/>
+                        <input type="email" name="email" id ="email" placeholder="Email Id..." class="input-rounded" required/>
+                        <input type="text" name="name" id ="phone" placeholder="Phone no..." class="input-rounded" required/>
+                        <textarea name="message" id="message" rows="4" placeholder="How can i help you?"></textarea>
+                        <button type="submit" value="send">Send message</button>
+                    </form>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </main>
+   
+    
+    <footer class = "text-center h-20 sticky top-[100vh]"><!--  bg-blue-500  -->
+        <div class="grid grid-cols-3 gap-3 items-center text-center text-sm mt-6  border-b-2 border-slate-100">
+            <!-- first vertical grid -> social -->
+            <div class="flex justify-end">
+                <ul class="grid grid-rows-5 justify-center gap-3 text-center items-center">
+                    <!-- first grid social -->
+                    <li class="font-bold">SOCIAL</li>
+
+                    <!-- second grid linkedin -->
+                    <li class="items-center space-x-3 flex">
+                        <a href="https://www.linkedin.com/in/suraj-belbase/" target="_blank" class="inline-flex space-x-1">
+                            <img src="img/linkedin.png" height="20px" width="20px">
+                            <p>LinkedIn</p>  
+                        </a>                                              
+                    </li>
+                    
+                    <!-- third grid github -->
+                    <li class="inline-flex items-center space-x-3 flex">
+                        <a href="https://github.com/surajbelbase" target="_blank" class="inline-flex space-x-2">
+                            <img src="img/github.png" height="20px" width="20px">
+                            <p>Github</p>
+                        </a>                        
+                    </li>
+                    
+                    <!-- fourth grid twitter -->
+                    <li class="inline-flex items-center space-x-3 flex">
+                        <a href="https://twitter.com/belbase_suraj" target="_blank" class="inline-flex space-x-2">
+                            <img src="img/twitter.png" height="20px" width="20px">
+                            <p>Twitter</p>
+                        </a>
+                    </li>
+                    
+                    <!-- fifth grid instagram -->
+                    <li class="inline-flex items-center space-x-3 flex">
+                        <a href="https://www.instagram.com/suraj.belbase/" target="_blank" class="inline-flex space-x-1">
+                            <img src="img/instagram.png" height="20px" width="20px">
+                            <p>Instagram</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Second vertical grid -> pages and support -->
+            <div class="flex justify-center">
+                <ul class="grid grid-rows-6">
+                    <li class="font-bold">PAGES</li>
+                    <li class="" ><a href="./index.html">Home</a></li>
+                    <li class="" ><a href="./about.html">About</a></li>                        
+                    <li class="" ><a href="./contact.html">Contact</a></li>
+                    <li class="font-bold mt-3">SUPPORT MY WORK</li>
+                    <li class="">Thanks for visiting this page. :)</li>
+                </ul>
+            </div>
+            
+            
+            <!-- Third vertical grid -> languages -->
+            <div class="flex justify-start">
+                <ul class="grid grid-rows-5 gap-3">
+                    <li class="font-bold">LANGUAGES</li>
+                    <li class="">ENGLISH</li>
+                    <li class="">हिन्दी</li>
+                    <li class="">नेपाली</li>
+                    <li class="">日本語</li>
+                </ul>
+            </div>
+        </div>
+        <div class = "">
+            <div class="inline-flex items-center space-x-3">
+                <p>MADE WITH </p>
+                <img src="img/tailwind_logo.svg" height="30px" width="30px">                      
+            </div>
+            <p>© Made by Suraj Belbase. All right reserved.</p>
+        </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        // const formToReset = document.getElementById('demo_form');
+        // formToReset.addEventListener('submit', (e) => {
+        //    e.preventDefault();
+        //    formToReset.reset();
+        // });
+     </script>
+</body>
+</html>
